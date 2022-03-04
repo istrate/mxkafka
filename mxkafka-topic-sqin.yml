@@ -2,7 +2,7 @@ apiVersion: kafka.strimzi.io/v1beta2
 kind: KafkaTopic
 metadata:
   name: sqin
-  namespace: maskafka
+  namespace: mxkafka
   labels:
     strimzi.io/cluster: mxkafka
 spec:
